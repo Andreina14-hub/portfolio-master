@@ -28,7 +28,7 @@ html {
   }
   /* 3. Specific */
 .wallpaper {
-  background-image: url("/image/cards-fondo.jpg");
+  background-image: url("..Swimage/cards-fondo.jpg");
   background-position: center;
   background-size: cover;
   opacity: 0.2;

@@ -119,18 +119,19 @@ a {
   text-transform: uppercase;
 }
 .job {
-  color: #7e79ff;
+  color: #0fffc7;
   font-size: 0.75rem;
+  box-shadow: rgba(250, 252, 252, 0);
 }
 .hr {
-  background-color: #370fff;
+  background-color: #0fffc7;
   border: none;
   content: "";
   height: 1px;
   margin-bottom: 1.5rem;
   margin-top: 1.5rem;
-  transform-origin: center left;
-  width: 4rem;
+  transform-origin:initial;
+  width: 8rem;
 }
 .description {
   font-size: 1.5rem;
@@ -146,10 +147,10 @@ button,
   transition-duration: 100ms;
 }
 .button {
-  background-color: #fff;
+  background-color: #545de4;
   border-radius: 290486px;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
-  color: #9013fe;
+  color: #eeeaf1;
   display: inline-block;
   font-size: 0.875rem;
   line-height: 1;

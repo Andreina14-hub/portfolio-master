@@ -177,12 +177,12 @@ button,
 .social li {
   height: 2rem;
   margin-right: 0.5rem;
-  /* text-align: center; */
+  text-align: center; 
   width: 4rem;
 }
 .social a {
-  /* align-items: center; */
-  /* display: flex; */
+  align-items: center;
+  display: flex; 
   font-size: 1.5rem;
   height: 2rem;
  

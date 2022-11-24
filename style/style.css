@@ -173,6 +173,7 @@ button,
 .social {
   display: flex;
   margin-top: 1.5rem;
+  justify-content: space-around;
 }
 .social li {
   display: flex;

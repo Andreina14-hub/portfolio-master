@@ -172,6 +172,7 @@ button,
 }
 .social {
   display: flex;
+  justify-content: space-evenly
   margin-top: 1.5rem;
 }
 .social li {
@@ -183,7 +184,6 @@ button,
 .social a {
   align-items: center;
   display: flex;
-  justify-content: space-evenly
   font-size: 1.5rem;
   height: 2rem;
  

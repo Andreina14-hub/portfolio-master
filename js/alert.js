@@ -1,4 +1,4 @@
-alert('Hello world!');
+// alert('Hello world!');
 function loadImage(id, targetId) {
     var el = document.getElementById(id);
     var targetEl = targetId ? document.getElementById(targetId) : el;

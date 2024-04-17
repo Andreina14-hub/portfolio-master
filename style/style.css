@@ -22,6 +22,7 @@ a {
   text-decoration: none;
 }
 
+
 /* 2. Shared */
 .wallpaper {
   display: block;
@@ -33,7 +34,7 @@ a {
 
 /* 3. Specific */
 .wallpaper {
-  background-image: url("../image/fondo.jpg");
+  background-image: url("../image/fondo.jpeg");
   background-position: center;
   background-size: cover;
   opacity: 0.2;
@@ -135,7 +136,7 @@ a {
 }
 
 .job {
-  color: #0fffc7;
+  color: #545de4;
   font-size: 0.75rem;
   box-shadow: rgba(250, 252, 252, 0);
 }

@@ -86,7 +86,7 @@ a {
 @media screen and (max-width: 799px) {
   .content {
     display: flex;
-    margin: 1rem;
+    margin: 1em;
     flex-direction: column;
     align-content: center;
     flex-wrap: wrap;

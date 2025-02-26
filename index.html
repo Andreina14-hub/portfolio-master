@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="style/reset.css">
     <link rel="stylesheet" type="text/css" href="style/style.css">
     <link rel="stylesheet" type="text/css" href="style/animacion.css">
+    <link rel="stylesheet" href="style/projects.css">
     <script defer type="text/javascript" src="js/alert.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"></script>
 </head>
@@ -27,14 +28,33 @@
 
 <body>
     <div id="wallpaper" class="wallpaper" data-imagen="image/cards-fondo.jpg"></div>
+    <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+        <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor">
+            <circle cx="12" cy="12" r="5" />
+            <line x1="12" y1="1" x2="12" y2="3" />
+            <line x1="12" y1="21" x2="12" y2="23" />
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+            <line x1="1" y1="12" x2="3" y2="12" />
+            <line x1="21" y1="12" x2="23" y2="12" />
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+        </svg>
+        <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+        </svg>
+    </button>
     <div class="content">
         <aside class="side">
             <figure id="picture" class="picture">
                 <img id="pictureImage" class="picture-image" src="./image/yo.jpg" srcset="./image/yo.jpg,
                 ./image/yo_x2.jpg 2x,
-               ./image/yo_x3.jpg 3x" alt="Portrait of Andreina Lopez">
-                <a class="button" href="mailto:l.andreina14@gmail.com">
-                    Get in touch
+                ./image/yo_x3.jpg 3x" alt="Portrait of Andreina Lopez">
+                <a class="button contact-button" href="mailto:l.andreina14@gmail.com"
+                    data-email="l.andreina14@gmail.com">
+                    Contact Me
                 </a>
             </figure>
         </aside>
@@ -44,25 +64,82 @@
             </h2>
             <h1>
                 <p class="job">
-                    UX/UI Designer and WEB Designer
+                    <span class="highlight">UX/UI Designer</span> &
+                    <span class="highlight-alt">Web Designer</span>
                 </p>
             </h1>
             <hr class="hr">
             <div class="description">
                 <h3>
-                    <p>
-                        I am a UX/UI Designer and Web Designer.
+                    <p class="intro-text">
+                        Passionate about creating intuitive and engaging digital experiences.
                     </p>
-                    <p>During most of my life I have worked in sales and
-                        marketing without leaving design aside.</p>
-                    <p>My first steps in the transformation, have been as a
-                        Community Manager,
-                        and then I made the leap to ux/ui design, today I am still learning to improve
-                        my skills in web design.
+                    <p class="experience-text">
+                        With a strong background in <span class="highlight">sales</span> and
+                        <span class="highlight">marketing</span>, I bring a unique perspective
+                        to design that combines business insights with user-centered solutions.
+                    </p>
+                    <p class="journey-text">
+                        My journey from <span class="highlight-alt">Community Manager</span> to
+                        <span class="highlight">UX/UI Designer</span> has equipped me with a deep
+                        understanding of user behavior and digital trends. Currently expanding my
+                        skills in <span class="highlight-alt">web design</span> and development.
                     </p>
                 </h3>
             </div>
             <!--fin description -->
+
+            <!-- Sección de Proyectos -->
+            <section class="projects-section">
+                <h3 class="section-title">
+                    Featured Projects
+                </h3>
+                <div class="projects-container">
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="./image/Atomic_Pages.svg" alt="UX/UI Project">
+                            <div class="project-overlay">
+                                <h4>E-commerce Redesign</h4>
+                                <p class="project-description">
+                                    A complete redesign focused on improving user experience and conversion rates.
+                                </p>
+                                <p class="project-tags">UX/UI Design • User Research</p>
+                                <a href="https://medium.com/@l.andreina14/el-desv%C3%A1n-del-libro-redefining-the-digital-experience-for-book-lovers-case-study-634f4deff237"
+                                    target="_blank" class="project-button" rel="noopener noreferrer">View Case Study</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="./image/project2.jpg" alt="Front-end Project">
+                            <div class="project-overlay">
+                                <h4>Weather Dashboard</h4>
+                                <p class="project-description">
+                                    Interactive weather application built with HTML, CSS, and JavaScript.
+                                </p>
+                                <p class="project-tags">Front-end Development • API Integration</p>
+                                <a href="#" class="project-button">View Project</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="./image/project3.jpg" alt="UX/UI Project">
+                            <div class="project-overlay">
+                                <h4>Health App Design</h4>
+                                <p class="project-description">
+                                    Mobile app design for healthcare monitoring and appointment scheduling.
+                                </p>
+                                <p class="project-tags">UX/UI Design • Prototyping</p>
+                                <a href="#" class="project-button">View Case Study</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
             <div class="contact">
                 <ul class="social">
                     <li>
@@ -91,6 +168,20 @@
         </main>
     </div>
     <!--content -->
+
+    <!-- Agregar el popup -->
+    <div id="emailPopup" class="email-popup">
+        <div class="popup-content">
+            <h3>Contact Email</h3>
+            <p id="emailText">l.andreina14@gmail.com</p>
+            <button id="copyEmail" class="copy-button">Copy Email</button>
+            <button class="close-button">&times;</button>
+        </div>
+    </div>
+
+    <!-- Agregar antes de cerrar el body -->
+    <script defer src="js/contact.js"></script>
+    <script defer src="js/theme.js"></script>
 </body>
 
 </html>
